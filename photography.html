@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="photographyMain.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <title>Photography</title>
+</head>
+<body>
+    
+      <div class="header" id=myHeader>
+        
+        <div class="title">
+          <h1>AYOMi</h1>
+          <h2>PHOTOGRAPHY</h2>
+        </div>
+
+        <div>
+          <ul class="navhome">
+            <li class="link1"><a href="index.html">Home</a></li>
+            <li class="link2"><a href="misc.html">Misc</a></li>
+            <li class="link3"><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+      
+      </div>
+
+
+      <div class="content">
+
+        <div class="div1">
+          <a href="photographyablm.html" target="_blank">
+          <img src="images/AYO00398.jpg">
+        </div>
+        
+        
+        <div class="div2">
+          <a href="photographySIL.html" target="_blank">
+          <img src="images/DSC_1197.jpg"></a>
+          </div>
+
+      </div>
+
+
+      <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+        </script>
+
+
+   
+        <p>Vince.Abayomi TM - 2020 all rights reserved</p>  
+   
+    
+    
+</body>
+</html>
